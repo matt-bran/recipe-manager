@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Tasks"/>
+        <item
+            android:id="@+id/nav_recipes"
+            android:icon="@drawable/ic_recipes"
+            android:title="Recipe Book"/>
+        <item
+            android:id="@+id/nav_meal_plan"
+            android:icon="@drawable/ic_meal_plan"
+            android:title="Meal Planning"/>
+        <item
+            android:id="@+id/nav_signOut"
+            android:icon="@drawable/ic_exit"
+            android:title="Sign out"/>
+    </group>
+
+</menu>

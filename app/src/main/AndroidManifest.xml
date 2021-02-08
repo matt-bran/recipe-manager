@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aspbuild1">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.UpdateInstructionActivity"></activity>
+        <activity android:name=".Activities.AddRecipeEventActivity" />
+        <activity android:name=".Activities.UpdateIngredientActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.UpdateRecipeActivity" />
+        <activity android:name=".Activities.ViewEditRecipeActivity" />
+        <activity
+            android:name=".Activities.AddRecipeActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.ViewRecipeActivity" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
