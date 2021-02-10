@@ -83,14 +83,5 @@ public class RegisterActivity extends AppCompatActivity {
             Toast.makeText(this, "Passwords do not match", Toast.LENGTH_SHORT).show();
             return;
         }
-
-        /*Intent data = new Intent();
-        data.putExtra(EXTRA_USER_NAME, username);
-        data.putExtra(EXTRA_PASSWORD, password);
-        data.putExtra(EXTRA_FIRST_NAME, firstName);
-        data.putExtra(EXTRA_LAST_NAME, lastName);
-        setResult(RESULT_OK, data);     // pass data and finish
-        finish(); */
     }
-
 }
