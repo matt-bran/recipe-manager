@@ -1,7 +1,7 @@
 # recipe-manager
 Recipe manager android application personal project.
 
-Recipe Manager keeps keeps track of recipes a user adds to the application. The application can perform simple CRUD actions on the recipes as well as their ingredients and instructions. 
+Recipe Manager keeps track of recipes a user adds to the application. The application can perform simple CRUD actions on the recipes as well as their ingredients and instructions. 
 The application can also create tasks in which a recipe is planned for a specified date.  
 
 ## Database Diagram 
